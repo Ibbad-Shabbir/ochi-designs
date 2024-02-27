@@ -1,4 +1,5 @@
 import React from "react";
+import photo from '../assets/images/photo.jpg'
 
 function About() {
   return (
@@ -8,11 +9,13 @@ function About() {
         to raise funds, sell products, explain complex ideas, and hire great
         people.
       </h1>
-      <div className="w-full border-t-[1px] pt-10 mt-20 border-zinc-900/25">
+      <div className="w-full flex gap-5 border-t-[1px] pt-10 mt-20 border-zinc-900/25">
         <div className="w-1/2">
-            <h1 className="text-8xl">Our Approach</h1>
-            <button className="px-10 py-6 bg-zinc-900 rounded-full text-zinc-300">Read More</button>
+            <h1 className="text-7xl font-['Neue_Montreal']">Our approach:</h1>
+            <button className="px-10 py-6 gap-10 bg-zinc-800 rounded-full text-zinc-300 mt-10 flex uppercase font-['Neue_Montreal'] items-center font-medium">Read More
+            <div className="w-3 h-3 rounded-full bg-zinc-100"></div></button>
         </div>
+        <img src={photo} alt="homepage_photo" className="w-1/2 h-[70vh] rounded-3xl" />
       </div>
     </div>
   );
