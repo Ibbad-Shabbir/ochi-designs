@@ -1,8 +1,8 @@
-# React + Vite
+# OCHI DESIGNS
+this is a clone for the orignal website [ochi design][https://ochi.design/]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+i dont mean to copy this website and use it for personal benifits. 
 
-Currently, two official plugins are available:
+this was solely done for **educational** and **learning** purposes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Thank You
