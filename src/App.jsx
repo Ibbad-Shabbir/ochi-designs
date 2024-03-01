@@ -5,6 +5,7 @@ import Marquee from "./components/Marquee";
 import About from "./components/About";
 import Eyes from "./components/Eyes";
 import Featured from "./components/Featured";
+import Cards from "./components/Cards";
 
 function App() {
   return <div className="w-full h-screen text-zinc-900">
@@ -14,6 +15,7 @@ function App() {
     <About />
     <Eyes />
     <Featured />
+    <Cards />
   </div>;
 }
 
