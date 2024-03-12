@@ -1,9 +1,13 @@
 import React from "react";
 
-function Navbar() {
+function Footer() {
   return (
-    <div className="fixed z-[999] w-full px-20 py-8 font-['Neue_Montreal'] flex justify-between items-center bg-white/50 backdrop-blur-lg">
-      <div className="logo">
+    <div className="flex gap-5 w-full h-screen bg-zinc-100">
+      <div className="w-1/2 h-full flex flex-col justify-between font-['Test_Founders_Grotesk_X'] p-20">
+        <div className="heading">
+          <h1 className="text-[10vw] uppercase leading-none -mb-10">Eye-</h1>
+          <h1 className="text-[10vw] uppercase leading-none -mb-10">Opening</h1>
+        </div>
         <svg
           width="72"
           height="30"
@@ -33,15 +37,18 @@ function Navbar() {
           ></path>
         </svg>
       </div>
-      <div className="links flex gap-10">
-        {["Services", "Our work", "About us", "Insights", "Contact us"].map((item, index) => (
-          <a key={index} className={`text-lg font-light ${index === 4 && "ml-32"}`}>
-            {item}
-          </a>
-        ))}
+      <div className="w-1/2">
+        <h1 className="text-[10vw] uppercase leading-none pt-20 font-['Test_Founders_Grotesk_X'] ">
+          Persentations
+        </h1>
+        <div className="dets font-['Neue_Montreal'] mt-10">
+          <a href="#" className="block text-xl font-light mt-10">Facebook</a>
+          <a href="#" className="block text-xl font-light mt-10">Instagram</a>
+          <a href="#" className="block text-xl font-light mt-10">Twitter</a>
+        </div>
       </div>
     </div>
   );
 }
 
-export default Navbar;
+export default Footer;
